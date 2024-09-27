@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.proyecto">
 
     <application
@@ -9,8 +10,35 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".RegistroUsuario"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".Modif_Elim_Diario"></activity>
+        <activity android:name=".MostrarDiarios" />
+        <activity android:name=".med3"></activity>
+        <activity android:name=".med2" />
+        <activity android:name=".med1" />
+        <activity android:name=".Ejer_estiramiento" />
+        <activity android:name=".ejer_atencionconcentracion" />
+        <activity android:name=".ejer_puntosrojos" />
+        <activity android:name=".ejer_meditacion" />
+        <activity android:name=".Menu_ejercdiario" />
+        <activity android:name=".FrasesLibros" />
+        <activity android:name=".Texturas" />
+        <activity android:name=".Conteo5a5" />
+        <activity android:name=".Menu_ejercicios" />
+        <activity android:name=".Ejer_gestionando" />
+        <activity android:name=".Ejer_identificando" />
+        <activity android:name=".Ejer_autocuidado" />
+        <activity android:name=".Pantalla_inicio" />
+        <activity android:name=".Info_estres" />
+        <activity android:name=".Diario_R" />
+        <activity android:name=".Resp" />
+        <activity android:name=".Info_vs" />
+        <activity android:name=".Info_ansiedad" />
+        <activity android:name=".Menu_informacion" />
+        <activity android:name=".RegistroUsuario" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Son_Piano" />
+        <activity android:name=".JuegoRespirar" />
+        <activity android:name=".PantallaPrincipal">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -18,5 +46,8 @@
             </intent-filter>
         </activity>
     </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
 </manifest>
